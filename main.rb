@@ -49,9 +49,9 @@ puts string02
 puts string02.end_with?("Goodbye!")
 
 puts "\n" # line to separate sections ---
-puts "Convert String 'q,w,e,r,t,y' to an Array: "
-string03 = "q,w,e,r,t,y"
-puts string03.split(",")
+puts "Convert String 'qwerty' to an Array: "
+string03 = "qwerty"
+puts string03.split("")
 
 puts "\n" # line to separate sections ---
 puts "Convert Array '[q,w,e,r,t,y]' to a String: "
@@ -76,13 +76,3 @@ puts string123.match?(/\A-?\d+\Z/)
 puts "String 2: '123abc':"
 string123abc = "123abc"
 puts string123abc.match?(/\A-?\d+\Z/)
-
-
-
-
-
-
-
-
-
-
